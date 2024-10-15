@@ -1,0 +1,11 @@
+LOAD AH_82_150A.dat
+PANE
+OPER
+Visc 12600000
+PACC
+polar_file_AH_82_150A.txt
+
+ITER 100
+ASeq -5 20 0.5
+PACC
+QUIT
